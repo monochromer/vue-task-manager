@@ -1,0 +1,33 @@
+:root {
+  --color-text: #1C2530;
+  --color-text-fade: #86949E;
+  --color-light-contrast: #FFFFFF;
+  --color-dark-contrast: #000000;
+  --color-light-fade: #F7F7F7;
+  --color-border: #E3E5E8;
+  --color-border-primary: #C4CAD4;
+  --color-action: #3D86F4;
+  --color-action-light: #E1F1FF;
+  --color-success: #22C33D;
+  --color-danger: #F53D5C;
+
+  --font-family-main: system-ui, sans-serif;
+
+  --font-size-md: 14px;
+  --font-size-lg: 24px;
+
+  --font-weight: 400;
+  --font-semibold: 600;
+
+  --border-radius-sm: 4px;
+  --border-radius-md: 8px;
+
+  --box-shadow-md:
+    0 8px 8px rgb(0, 0, 0, 0.08),
+    0 8px 16px rgb(0, 0, 0, 0.06)
+  ;
+  --box-shadow-lg:
+    0 16px 32px rgb(0 0 0 / 0.1),
+    0 32px 48px rgb(0 0 0 / 0.16)
+  ;
+}
