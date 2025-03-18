@@ -53,6 +53,10 @@
     try {
       const data = event.dataTransfer?.getData('application/json') ?? ''
       const taskId = JSON.parse(data) as Task['id']
+      const taskColumn = tasksStore.tasks.value[taskId].column
+      if (taskColumn === props.id) {
+        return
+      }
       tasksStore.moveTask(taskId, props.id)
     } catch (error) {
       console.error('Invalid drop data: ', error)
